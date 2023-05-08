@@ -5,7 +5,7 @@ cd shell-oneliner
 git clone git@github.com:shellgei/shellgei160.git
 ```
 
-(`.gitignore`)[./.gitignore]
+[`.gitignore`](./.gitignore)
 ```
 shellgei160
 ```
