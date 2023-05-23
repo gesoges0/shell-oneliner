@@ -8,5 +8,3 @@ echo ${PIPESTATUS[@]}
 #2-1-g-2.sh: 5: Bad substitution
 #gesogeso@gesogeso ~/src/shell-oneliner/p02 (main) $ /bin/bash 2-1-g-2.sh
 #0 1 (catは成功, grepは検索ヒットなし)
-
-

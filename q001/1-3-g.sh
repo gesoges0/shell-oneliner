@@ -11,5 +11,5 @@ seq 4 | awk '{print "mkdir " ($1%2 ? "odd_": "even_") $1}' | bash
 seq 4 | awk '{print ($1%2 ? "odd_" : "even_")$1}' | xargs rmdir
 
 # make bash file
-seq 4 | awk '{print "mkdir " ($1%2 ? "odd_" : "even_") $1}' > a
+seq 4 | awk '{print "mkdir " ($1%2 ? "odd_" : "even_") $1}' >a
 # bash ./a

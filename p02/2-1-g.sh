@@ -2,15 +2,13 @@
 set aa bb cc
 echo $2
 
-for x in "$1" "$2" "$3" ; do echo $x ; done
+for x in "$1" "$2" "$3"; do echo $x; done
 
 # 改行あり
-seq 3 | while read x ; do echo $x; done
+seq 3 | while read x; do echo $x; done
 
 # 改行なし
-seq 3 | while read x ; do printf "%s " $x ; done
-
-
+seq 3 | while read x; do printf "%s " $x; done
 
 # 終了ステータス
 grep 'bash' /etc/passwd

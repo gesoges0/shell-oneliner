@@ -1,4 +1,4 @@
-a=( "$SHELL" "$LANG" "$USER" )
+a=("$SHELL" "$LANG" "$USER")
 
 # bという連想配列を作る
 declare -A b
@@ -48,5 +48,3 @@ echo "${a[*]}" # /bin/bash🤔ja_JP.UTF-8🤔gesoges
 
 echo "${b[@]}" # /bin/bash ja_JP.UTF-8 gesogeso
 echo "${b[*]}" # /bin/bash🤔ja_JP.UTF-8🤔gesoges
-
-

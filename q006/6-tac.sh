@@ -7,4 +7,3 @@ cat hoge | tac
 # ijkl
 # efgh
 # abcd
-

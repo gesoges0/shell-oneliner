@@ -10,6 +10,5 @@ seq -w 100 | awk '{print $1,$1}' | sed 's/^0*/mv /'
 # mv 9 009
 # mv 10 010
 
-# execute 
+# execute
 seq -w 100 | awk '{print $1,$1}' | sed '/s/^0*/mv /' | xaargs -P$(nproc) -I@ sh -c @
-
